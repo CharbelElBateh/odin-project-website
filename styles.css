@@ -1,0 +1,153 @@
+*{
+    font-family: roboto, sans-serif;
+}
+html, body{
+    height: auto;
+    width: 100%;
+    margin: 0;
+}
+header{
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    position: sticky;
+    overflow: hidden;
+    justify-content: space-between;
+}
+header, footer{
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+}
+ul{
+    list-style: none;
+}
+ul, header{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+main{
+    background-color: #1F2937;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: grid;
+    grid-auto-columns: 50%;
+}
+main-text{
+    grid-row: 1;
+    grid-column: 1;
+    padding-right: 50px;
+}
+main-text hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+main-text p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+main-image{
+    grid-row: 1;
+    grid-column: 2;
+}
+main-image img{
+    height: auto;
+    max-width: 100%;
+    object-fit:contain;
+}
+button{
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 7px 25px 7px 25px;
+    border: 0;
+}
+info .hero{
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+box{
+    display: block;
+    border: 7px solid #3882F6;
+    border-radius: 20px;
+    height:150px;
+    width:150px;
+}
+.container {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 75px;
+}
+  
+.sub{
+    padding-top: 10px;
+    text-align: center;
+    max-width: 164px;
+    font-size: 18px;
+}
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 10% 25% 10% 25%;
+}
+.quote p{
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+}
+#ref{
+    float: right;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+}
+.middle{
+    margin: 5% 12.5% 5% 12.5%;
+    padding: 2% 5% 2% 5%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: grid;
+}
+.middle text declaration{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.middle text{
+    font-size: 18px;
+    color: #E5E7EB;
+    grid-column: 1;
+}
+.middle .button{
+    grid-column: 2;
+}
+.middle .button button{
+    float: right;
+    border: 3px solid;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+}
